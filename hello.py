@@ -1,4 +1,8 @@
-# pierwszy kod w pythonie
-name = input("Whats your name? ").strip().title()
-first, last = name.split(" ")
-print(f"hello {first}")
+def hello(to="world"):
+    print("Hello ", to)
+hello()
+name = input("Whant's your name? ")
+
+hello(name)
+
+
